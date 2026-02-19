@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="hy" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ուսումնական նախագիծ «Աշակերտական օմբուդսման» | ՀՀ ԿԳՄՍՆ «Գյումրու թիվ 1 ավագ դպրոց» ՊՈԱԿ</title>
+  <meta name="description" content="11դ դասարանի (հումանիտար իրավագիտական հոսք) նախագիծ՝ սովորողների իրավունքների պաշտպանության համար">
+  <style>
+    :root {
+      --bg: #0a192f; --dark: #000814; --text: #e6f1ff; --light: #ccd6f6; --accent: #ff9f1c;
+    }
+    body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+    header { background: linear-gradient(to bottom, var(--dark), var(--bg)); text-align: center; padding: 40px 20px; border-bottom: 3px solid var(--accent); }
+    .header-icons { display: flex; justify-content: center; align-items: center; gap: 30px; margin: 20px 0; flex-wrap: wrap; }
+    .icon { width: 120px; height: auto; border: 2px solid var(--light); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+    h1 { margin: 10px 0; font-size: 2.6em; }
+    h2 { color: var(--accent); border-bottom: 2px solid var(--light); padding-bottom: 8px; margin-top: 35px; }
+    nav { background: var(--dark); padding: 15px; text-align: center; border-bottom: 1px solid #1e3a5f; }
+    nav a { color: var(--text); margin: 0 15px; text-decoration: none; font-weight: 500; }
+    nav a:hover { color: var(--accent); }
+    main { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+    section { background: rgba(255,255,255,0.04); padding: 25px; margin-bottom: 30px; border-radius: 10px; border: 1px solid #1e3a5f; box-shadow: 0 4px 15px rgba(0,0,0,0.4); }
+    ol, ul { padding-left: 25px; }
+    footer { text-align: center; padding: 20px; background: var(--dark); font-size: 0.95em; border-top: 1px solid #1e3a5f; }
+    #language-selector { text-align: center; padding: 15px; background: var(--dark); }
+    #language-selector button { background: var(--accent); color: white; border: none; padding: 8px 20px; margin: 0 10px; cursor: pointer; border-radius: 5px; }
+    #language-selector button:hover { background: #e68a00; }
+    .content { display: none; }
+    .active { display: block; }
+    @media (max-width: 768px) { h1 { font-size: 2em; } .header-icons { flex-direction: column; gap: 15px; } }
+  </style>
+</head>
+<body>
+  <div id="language-selector">
+    <button onclick="switchLanguage('hy')">Հայերեն</button>
+    <button onclick="switchLanguage('en')">English</button>
+    <button onclick="switchLanguage('ru')">Русский</button>
+  </div>
+
+  <!-- Հայերեն -->
+  <div id="content-hy" class="content active">
+    <header>
+      <div class="header-icons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg" alt="Հայաստանի դրոշ" class="icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Coat_of_arms_of_Armenia.svg" alt="ՀՀ զինանշան" class="icon">
+        <img src="dproc.png" alt="Գյումրու թիվ 1 ավագ դպրոցի լոգո" class="icon">
+        <img src="ombuds.png" alt="Աշակերտական օմբուդսմանի լոգո" class="icon">
+      </div>
+      <h1>ՀՀ ԿԳՄՍՆ «Գյումրու թիվ 1 ավագ դպրոց» ՊՈԱԿ<br>Ուսումնական նախագիծ «Աշակերտական օմբուդսման» — 11դ (հումանիտար իրավագիտական հոսք)</h1>
+      <p>Սովորողների իրավունքների պաշտպան</p>
+    </header>
+    <nav>
+      <a href="#home">Գլխավոր</a>
+      <a href="#about">Պաշտպանը</a>
+      <a href="#rights">Իրավունքներ</a>
+      <a href="#complaint">Ինչպե՞ս դիմել</a>
+      <a href="#team">Թիմ</a>
+      <a href="#contact">Կապ</a>
+    </nav>
+    <main>
+      <section id="home">
+        <h2>Բարի գալուստ</h2>
+        <p>Սա 11դ դասարանի (հումանիտար իրավագիտական հոսք) ուսումնական նախագիծն է՝ նվիրված սովորողների իրավունքների պաշտպանությանը՝ ոգեշնչված ՀՀ Մարդու իրավունքների պաշտպանի գործունեությամբ։</p>
+      </section>
+      <section id="about">
+        <h2>Պաշտպանը</h2>
+        <p>Պաշտպանը (այսուհետ՝ Պաշտպան) ինքնուրույն և անկախ պաշտոնատար անձ է, որը, Հայաստանի Հանրապետության Սահմանադրության և օրենքների, ինչպես նաև միջազգային իրավունքի հանրաճանաչ սկզբունքների ու նորմերի համաձայն, իրականացնում է սովորողների խախտված իրավունքների և հիմնարար ազատությունների պաշտպանությունը։</p>
+      </section>
+      <section id="rights">
+        <h2>Սովորողների իրավունքներ</h2>
+        <ol>
+          <li>Ստանալու հանրակրթության պետական կրթական չափորոշչին համապատասխան կրթություն։</li>
+          <li>Ծնողի համաձայնությամբ ընտրելու ուսումնական հաստատությունը և ուսուցման ձևը, ինչպես նաև տվյալ ուսումնական հաստատությունում առկա հոսքը, ստանալու կրթական վճարովի ծառայություններ։</li>
+          <li>Անվճար օգտվելու ուսումնական հաստատության ուսումնանյութական բազայից։</li>
+          <li>Մասնակցելու ներդպրոցական և արտադպրոցական միջոցառումների։</li>
+          <li>Պաշտպանված լինելու ցանկացած ֆիզիկական և հոգեբանական ճնշումներից, շահագործումից, մանկավարժական և այլ աշխատողների ու սովորողների այնպիսի գործողություններից կամ անգործությունից, որով խախտվում են սովորողի իրավունքները, կամ ոտնձգություն է արվում նրա պատվին ու արժանապատվությանը։</li>
+          <li>Ուսումնական հաստատության կանոնադրությամբ սահմանված կարգով մասնակցելու ուսումնական հաստատության կառավարմանը։</li>
+          <li>Ազատորեն փնտրելու և մատչելիորեն ստանալու ցանկացած տեղեկատվություն, բացառությամբ օրենքով սահմանված դեպքերի։</li>
+          <li>Ազատ արտահայտելու սեփական կարծիքն ու համոզմունքները։</li>
+        </ol>
+      </section>
+      <section id="complaint">
+        <h2>Ինչպե՞ս դիմել Պաշտպանին</h2>
+        <p>Պաշտպանին կարող եք դիմել՝</p>
+        <ol>
+          <li>Դպրոցում տեղադրված տուփի միջոցով (անանուն կամ անվանական)։</li>
+          <li>Մոտենալով անձամբ Պաշտպանին։</li>
+          <li>Գրելով մեր էլեկտրոնային հասցեին՝ <a href="mailto:ombudsofN1.official@gmail.com">ombudsofN1.official@gmail.com</a>։</li>
+        </ol>
+      </section>
+      <section id="team">
+        <h2>Մեր թիմը</h2>
+        <p>Մեր հանձնախմբի անդամներն են՝</p>
+        <ul>
+          <li>Ավետիք Առաքելյան (Սովորողների իրավունքների պաշտպան)</li>
+          <li>Տիգրան Աբգարյան</li>
+          <li>Հռիփսիմե Զադուրյան</li>
+          <li>Անժելա Արիստակեսյան</li>
+          <li>Մանե Հարթենյան</li>
+          <li>Անի Նորսոյան</li>
+          <li>Լիանա Պողոսյան</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Կապ</h2>
+        <p>Հետադարձ կապ՝ <a href="mailto:ombudsofN1.official@gmail.com">ombudsofN1.official@gmail.com</a></p>
+        <p>Հեռախոսահամար՝ <a href="tel:+37494876400">+374 94 87 64 00</a></p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 ՀՀ ԿԳՄՍՆ «Գյումրու թիվ 1 ավագ դպրոց» ՊՈԱԿ — Ուսումնական նախագիծ «Աշակերտական օմբուդսման» | 11դ դասարան</p>
+    </footer>
+  </div>
+
+  <!-- English -->
+  <div id="content-en" class="content">
+    <header>
+      <div class="header-icons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg" alt="Flag of Armenia" class="icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Coat_of_arms_of_Armenia.svg" alt="Coat of Arms of Armenia" class="icon">
+        <img src="dproc.png" alt="Gyumri No. 1 Senior School Logo" class="icon">
+        <img src="ombuds.png" alt="Student Ombudsman Logo" class="icon">
+      </div>
+      <h1>RA MESCS "Gyumri No. 1 Senior School" SOE<br>Educational Project "Student Ombudsman" — 11D (Humanities and Law Stream)</h1>
+      <p>Protector of Learners' Rights</p>
+    </header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">Protector</a>
+      <a href="#rights">Rights</a>
+      <a href="#complaint">How to Apply</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <main>
+      <section id="home">
+        <h2>Welcome</h2>
+        <p>This is the educational project of the 11D class (Humanities and Law stream) dedicated to protecting learners' rights, inspired by the activities of the RA Human Rights Defender.</p>
+      </section>
+      <section id="about">
+        <h2>The Protector</h2>
+        <p>The Protector (hereinafter referred to as the Protector) is an independent and impartial official who, in accordance with the Constitution and laws of the Republic of Armenia, as well as generally recognized principles and norms of international law, carries out the protection of violated rights and fundamental freedoms of learners.</p>
+      </section>
+      <section id="rights">
+        <h2>Learners' Rights</h2>
+        <ol>
+          <li>To receive education in accordance with the state educational standards of general education.</li>
+          <li>With parental consent, to choose the educational institution and form of education, as well as the available stream in that institution, and to receive paid educational services.</li>
+          <li>To use the material and technical base of the educational institution free of charge.</li>
+          <li>To participate in intra-school and extra-curricular events.</li>
+          <li>To be protected from any physical and psychological pressure, exploitation, actions or inaction of pedagogical and other employees and learners that violate the learner's rights or infringe upon his/her honor and dignity.</li>
+          <li>To participate in the management of the educational institution in the manner prescribed by its charter.</li>
+          <li>To freely search for and access any information, except in cases provided by law.</li>
+          <li>To freely express one's own opinion and beliefs.</li>
+        </ol>
+      </section>
+      <section id="complaint">
+        <h2>How to Apply to the Protector</h2>
+        <p>You can apply to the Protector by:</p>
+        <ol>
+          <li>Through the box placed in the school (anonymous or named).</li>
+          <li>Approaching the Protector in person.</li>
+          <li>Writing to our email: <a href="mailto:ombudsofN1.official@gmail.com">ombudsofN1.official@gmail.com</a>.</li>
+        </ol>
+      </section>
+      <section id="team">
+        <h2>Our Team</h2>
+        <p>Members of our group are:</p>
+        <ul>
+          <li>Avetik Arakelyan (Protector of Learners' Rights)</li>
+          <li>Tigran Abgaryan</li>
+          <li>Hripsime Zaduryan</li>
+          <li>Anzhela Aristakesyan</li>
+          <li>Mane Hartenyan</li>
+          <li>Ani Norsoyan</li>
+          <li>Liana Poghosyan</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Feedback email: <a href="mailto:ombudsofN1.official@gmail.com">ombudsofN1.official@gmail.com</a></p>
+        <p>Phone: <a href="tel:+37494876400">+374 94 87 64 00</a></p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 RA MESCS "Gyumri No. 1 Senior School" SOE — Educational Project "Student Ombudsman" | 11D Class</p>
+    </footer>
+  </div>
+
+  <!-- Русский -->
+  <div id="content-ru" class="content">
+    <header>
+      <div class="header-icons">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg" alt="Флаг Армении" class="icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Coat_of_arms_of_Armenia.svg" alt="Герб Армении" class="icon">
+        <img src="dproc.png" alt="Логотип Гюмрийской средней школы №1" class="icon">
+        <img src="ombuds.png" alt="Логотип Школьного омбудсмена" class="icon">
+      </div>
+      <h1>МОНКС РА «Гюмрийская старшая школа №1» ГНКО<br>Образовательный проект «Школьный омбудсмен» — 11Д (гуманитарно-юридический поток)</h1>
+      <p>Защитник прав учащихся</p>
+    </header>
+    <nav>
+      <a href="#home">Главная</a>
+      <a href="#about">Защитник</a>
+      <a href="#rights">Права</a>
+      <a href="#complaint">Как обратиться</a>
+      <a href="#team">Команда</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <main>
+      <section id="home">
+        <h2>Добро пожаловать</h2>
+        <p>Это образовательный проект 11Д класса (гуманитарно-юридический поток), посвященный защите прав учащихся, вдохновленный деятельностью Защитника прав человека РА.</p>
+      </section>
+      <section id="about">
+        <h2>Защитник</h2>
+        <p>Защитник (далее — Защитник) является независимым и беспристрастным должностным лицом, которое в соответствии с Конституцией и законами Республики Армения, а также общепризнанными принципами и нормами международного права осуществляет защиту нарушенных прав и основных свобод учащихся.</p>
+      </section>
+      <section id="rights">
+        <h2>Права учащихся</h2>
+        <ol>
+          <li>Получать образование в соответствии с государственными образовательными стандартами общего образования.</li>
+          <li>С согласия родителей выбирать образовательное учреждение и форму обучения, а также имеющийся поток в данном учреждении, получать платные образовательные услуги.</li>
+          <li>Бесплатно пользоваться учебно-материальной базой образовательного учреждения.</li>
+          <li>Участвовать во внутришкольных и внешкольных мероприятиях.</li>
+          <li>Быть защищенным от любого физического и психологического давления, эксплуатации, действий или бездействия педагогических и других работников и учащихся, нарушающих права учащегося или посягающих на его честь и достоинство.</li>
+          <li>Участвовать в управлении образовательным учреждением в порядке, установленном его уставом.</li>
+          <li>Свободно искать и получать любую информацию, за исключением случаев, предусмотренных законом.</li>
+          <li>Свободно выражать свое мнение и убеждения.</li>
+        </ol>
+      </section>
+      <section id="complaint">
+        <h2>Как обратиться к Защитнику</h2>
+        <p>К Защитнику можно обратиться:</p>
+        <ol>
+          <li>Через ящик, установленный в школе (анонимно или с указанием имени).</li>
+          <li>Подойдя лично к Защитнику.</li>
+          <li>Написав на наш электронный адрес: <a href="mailto:ombudsofN1.official@gmail.com">ombudsofN1.official@gmail.com</a>.</li>
+        </ol>
+      </section>
+      <section id="team">
+        <h2>Наша команда</h2>
+        <p>Члены нашей группы:</p>
+        <ul>
+          <li>Аветик Аракелян (Защитник прав учащихся)</li>
+          <li>Тигран Абгарян</li>
+          <li>Грипсиме Задурян</li>
+          <li>Анжела Аристакесян</li>
+          <li>Мане Гартенян</li>
+          <li>Ани Норсоян</li>
+          <li>Лиана Погосян</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Контакты</h2>
+        <p>Обратная связь: <a href="mailto:ombudsofN1.official@gmail.com">ombudsofN1.official@gmail.com</a></p>
+        <p>Телефон: <a href="tel:+37494876400">+374 94 87 64 00</a></p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 МОНКС РА «Гюмрийская старшая школа №1» ГНКО — Образовательный проект «Школьный омбудсмен» | Класс 11Д</p>
+    </footer>
+  </div>
+
+  <script>
+    function switchLanguage(lang) {
+      document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+      document.getElementById('content-' + lang).classList.add('active');
+      document.documentElement.lang = lang;
+      const titles = {
+        hy: "Ուսումնական նախագիծ «Աշակերտական օմբուդսման» | ՀՀ ԿԳՄՍՆ «Գյումրու թիվ 1 ավագ դպրոց» ՊՈԱԿ",
+        en: "Educational Project \"Student Ombudsman\" | RA MESCS \"Gyumri No. 1 Senior School\" SOE",
+        ru: "Образовательный проект «Школьный омбудсмен» | МОНКС РА «Гюмрийская старшая школа №1» ГНКО"
+      };
+      document.title = titles[lang] || titles.hy;
+    }
+    switchLanguage('hy'); // Default to Armenian
+  </script>
+</body>
+</html>
